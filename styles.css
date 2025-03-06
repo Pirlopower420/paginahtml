@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #0011ff;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    width: 97.9%;
+    position: relative;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1100ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center; 
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.productos {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.productos h2 {
+    font-size: 28px;
+    color: #0011ff;
+    margin-bottom: 20px;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: linear-gradient(135deg, #ffffff, #e0e0e0);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.producto h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff0000;
+    margin: 10px 0;
+}
+
+.editar-precio {
+    background-color: #0011ff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.editar-precio:hover {
+    background-color: #0000cc;
+    transform: scale(1.1);
+}
