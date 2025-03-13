@@ -114,18 +114,4 @@ body {
     margin: 10px 0;
 }
 
-.editar-precio {
-    background-color: #0011ff;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px;
-    transition: 0.3s;
-}
 
-.editar-precio:hover {
-    background-color: #0000cc;
-    transform: scale(1.1);
-}
